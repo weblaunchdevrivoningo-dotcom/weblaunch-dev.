@@ -1,0 +1,26 @@
+/* * This file contains custom CSS rules 
+ * The majority of styling is handled by Tailwind classes in index.html 
+ */
+
+/* Sets the preferred font and enables smooth scrolling for internal links */
+body {
+    font-family: 'Inter', sans-serif;
+    scroll-behavior: smooth;
+}
+
+/* * Hero Section Background 
+ * Uses a fixed background image for a simple parallax effect
+ */
+.hero-bg {
+    /* Placeholder background image for a professional tech feel */
+    background-image: url('https://placehold.co/1920x800/1e293b/ffffff?text=Weblaunch+Dev+Background');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed; /* Creates the parallax effect */
+}
+
+/* Adds a subtle transition to the hamburger icon for UX */
+.hamburger-icon {
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
